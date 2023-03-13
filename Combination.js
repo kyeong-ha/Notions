@@ -12,7 +12,6 @@ function getCombinations(arr, N) {
   
     return results;
 }
-
 /*
     1을 선택(고정)하고 -> 나머지 [2, 3, 4] 중에서 2개씩 조합을 구한다.
     [1, 2, 3] [1, 2, 4] [1, 3, 4]

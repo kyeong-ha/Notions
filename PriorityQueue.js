@@ -17,6 +17,12 @@ class PriorityQueue {
     dequeue() {
       return this.values.shift();
     }
+    find(val) { // val 가 존재하면 true을 리턴하는 함수
+        this.values.forEach(element => {
+            if(element[i][0] == val) return true;
+        });
+        return false;
+    }
 }
 
 /*
